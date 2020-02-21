@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Sign_UpFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.sign_up.SignUpFragment">
+
+    <EditText
+        android:id="@+id/Enter_email_signup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:hint="Email"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/Enter_password_signup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Enter_email_signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:hint="Password"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/name_signup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Enter_password_signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:hint="Name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/surname_signup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:hint="Surname"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/age_signup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/surname_signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:hint="Age"
+        android:textAlignment="center" />
+
+    <Button
+
+        android:id="@+id/btn_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age_signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorAccent"
+        android:text="Sign UP" />
+
+
+</RelativeLayout>
